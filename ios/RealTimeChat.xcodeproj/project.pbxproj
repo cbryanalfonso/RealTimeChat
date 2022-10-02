@@ -8,13 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RealTimeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RealTimeChatTests.m */; };
+		0264E033A42F4F03A76E5A65 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB8AE5907B4998886C8017 /* Ionicons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3137101828942C13009E6826 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3137101728942C12009E6826 /* GoogleService-Info.plist */; };
+		32A88A0F2B1E4701975EDBC6 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E3C6E15B0B54A1AB2755116 /* FontAwesome5_Brands.ttf */; };
+		44B8459B268D48E9BDB5C197 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0D0427EB0374C8D9CC277B8 /* Fontisto.ttf */; };
 		49A407E43730D15C4D8D3B32 /* Pods_RealTimeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC25D6295499B0417D0ED82 /* Pods_RealTimeChat.framework */; };
+		5AA57A9474C74415B25D7A3D /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E872CC26C04D74835AFF8C /* EvilIcons.ttf */; };
+		61A77442B9BB49718BC556A7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEF8E1CAD10F49B8B077B14A /* Foundation.ttf */; };
+		669FF82AC45A47C98F2C1BBE /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3523D7E076EF484A8CF7CBAD /* MaterialCommunityIcons.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		82DD60766A3C4915E5A4BEA7 /* Pods_RealTimeChat_RealTimeChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185194CA0F803E7D3014DB26 /* Pods_RealTimeChat_RealTimeChatTests.framework */; };
+		86CE9B2FA3494E69B9540622 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21D5D3DF0B3F46689EFF2E4A /* Octicons.ttf */; };
+		883EEDB114CD4FF1ABB4EEE6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5E3C3B289B4CD7AAB25005 /* FontAwesome.ttf */; };
+		8B7F110E06DA40098D1B11D3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94CAA3347C564E16A4643D83 /* SimpleLineIcons.ttf */; };
+		B08B0E5C4A4740A3860CF4E3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EB2E0244738498382E30087 /* Entypo.ttf */; };
+		BAFFD6A46A8240508A8B7FF6 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C56288B9F7845619D4B7F14 /* AntDesign.ttf */; };
+		C876794071BA42B0874B6428 /* Feather-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AB4B038AE8D49CBB7595E26 /* Feather-1.ttf */; };
+		CB44273590A14A9DAF858514 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C0B944AEE94A8390D709ED /* Feather.ttf */; };
+		FCA978EE9A80439586F8A4D6 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CF79A1DE3FD4EE8A0CFCB5F /* MaterialIcons.ttf */; };
+		FD8254FC7AF141549E66F146 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87937BD9065A42DCB2F9B381 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RealTimeChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealTimeChatTests.m; sourceTree = "<group>"; };
 		0BC25D6295499B0417D0ED82 /* Pods_RealTimeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C0B944AEE94A8390D709ED /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RealTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RealTimeChat/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RealTimeChat/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,13 +55,27 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RealTimeChat/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RealTimeChat/main.m; sourceTree = "<group>"; };
 		185194CA0F803E7D3014DB26 /* Pods_RealTimeChat_RealTimeChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChat_RealTimeChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D5D3DF0B3F46689EFF2E4A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
 		3137101728942C12009E6826 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3523D7E076EF484A8CF7CBAD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RealTimeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat.debug.xcconfig"; path = "Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF79A1DE3FD4EE8A0CFCB5F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		48E872CC26C04D74835AFF8C /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		4EB2E0244738498382E30087 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RealTimeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat.release.xcconfig"; path = "Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat.release.xcconfig"; sourceTree = "<group>"; };
+		5AB4B038AE8D49CBB7595E26 /* Feather-1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Feather-1.ttf"; path = "../assets/fonts/Feather-1.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RealTimeChat-RealTimeChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat-RealTimeChatTests.debug.xcconfig"; path = "Target Support Files/Pods-RealTimeChat-RealTimeChatTests/Pods-RealTimeChat-RealTimeChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBB8AE5907B4998886C8017 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RealTimeChat/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87937BD9065A42DCB2F9B381 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RealTimeChat-RealTimeChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat-RealTimeChatTests.release.xcconfig"; path = "Target Support Files/Pods-RealTimeChat-RealTimeChatTests/Pods-RealTimeChat-RealTimeChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C56288B9F7845619D4B7F14 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		8E3C6E15B0B54A1AB2755116 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		94CAA3347C564E16A4643D83 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		BE5E3C3B289B4CD7AAB25005 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		BEF8E1CAD10F49B8B077B14A /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0D0427EB0374C8D9CC277B8 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +155,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E6DD1C1AAB954128AF958A7B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +180,28 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-RealTimeChat-RealTimeChatTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6DD1C1AAB954128AF958A7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C56288B9F7845619D4B7F14 /* AntDesign.ttf */,
+				4EB2E0244738498382E30087 /* Entypo.ttf */,
+				48E872CC26C04D74835AFF8C /* EvilIcons.ttf */,
+				5AB4B038AE8D49CBB7595E26 /* Feather-1.ttf */,
+				11C0B944AEE94A8390D709ED /* Feather.ttf */,
+				BE5E3C3B289B4CD7AAB25005 /* FontAwesome.ttf */,
+				8E3C6E15B0B54A1AB2755116 /* FontAwesome5_Brands.ttf */,
+				F0D0427EB0374C8D9CC277B8 /* Fontisto.ttf */,
+				BEF8E1CAD10F49B8B077B14A /* Foundation.ttf */,
+				5BBB8AE5907B4998886C8017 /* Ionicons.ttf */,
+				3523D7E076EF484A8CF7CBAD /* MaterialCommunityIcons.ttf */,
+				3CF79A1DE3FD4EE8A0CFCB5F /* MaterialIcons.ttf */,
+				21D5D3DF0B3F46689EFF2E4A /* Octicons.ttf */,
+				94CAA3347C564E16A4643D83 /* SimpleLineIcons.ttf */,
+				87937BD9065A42DCB2F9B381 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +300,21 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3137101828942C13009E6826 /* GoogleService-Info.plist in Resources */,
+				BAFFD6A46A8240508A8B7FF6 /* AntDesign.ttf in Resources */,
+				B08B0E5C4A4740A3860CF4E3 /* Entypo.ttf in Resources */,
+				5AA57A9474C74415B25D7A3D /* EvilIcons.ttf in Resources */,
+				C876794071BA42B0874B6428 /* Feather-1.ttf in Resources */,
+				CB44273590A14A9DAF858514 /* Feather.ttf in Resources */,
+				883EEDB114CD4FF1ABB4EEE6 /* FontAwesome.ttf in Resources */,
+				32A88A0F2B1E4701975EDBC6 /* FontAwesome5_Brands.ttf in Resources */,
+				44B8459B268D48E9BDB5C197 /* Fontisto.ttf in Resources */,
+				61A77442B9BB49718BC556A7 /* Foundation.ttf in Resources */,
+				0264E033A42F4F03A76E5A65 /* Ionicons.ttf in Resources */,
+				669FF82AC45A47C98F2C1BBE /* MaterialCommunityIcons.ttf in Resources */,
+				FCA978EE9A80439586F8A4D6 /* MaterialIcons.ttf in Resources */,
+				86CE9B2FA3494E69B9540622 /* Octicons.ttf in Resources */,
+				8B7F110E06DA40098D1B11D3 /* SimpleLineIcons.ttf in Resources */,
+				FD8254FC7AF141549E66F146 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +534,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6YB3A6LWR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RealTimeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +561,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6YB3A6LWR;
 				INFOPLIST_FILE = RealTimeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -622,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
