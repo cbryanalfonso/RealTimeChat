@@ -3,10 +3,10 @@ import React from 'react'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
-const ButtonBack = ({ onPress }) => {
+const ButtonBack = ({ onPress, colorIcon }) => {
     return (
         <TouchableOpacity onPress={onPress} >
-            <Icon name={"arrow-back"} size={wp(8)} color={"#38B5A6"} />
+            <Icon name={"arrow-back"} size={wp(8)} color={colorIcon} />
         </TouchableOpacity>
     )
 }
