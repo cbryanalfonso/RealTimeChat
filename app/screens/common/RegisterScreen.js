@@ -194,7 +194,7 @@ export const RegisterScreen = ({ navigation }) => {
                     <ButtonUI
                       txt={'Login'}
                       styled={'signUp'}
-                      onPress={() => navigation.navigate('RegisterScreen')}
+                      onPress={() => navigation.navigate('LoginScreen')}
                     />
                   </View>
                 </View>
