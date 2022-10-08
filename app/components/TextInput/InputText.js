@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, TextInput, View } from 'react-native'
 import { widthPercentageToDP as wp} from 'react-native-responsive-screen';
 import Icon from 'react-native-vector-icons/Fontisto';
+import { fontUse } from '../../utils/styles';
 
 const InputText = (props) => {
     return (
@@ -23,6 +24,7 @@ const InputText = (props) => {
                         autoCapitalize={props.autoCapitalize}
                         keyboardType={props.keyboardType}
                         maxLength={props.maxLength ? props.maxLength : null}
+                        autoCorrect={props.autoCorrect ? true : false}
                     />
         </View>
     )
@@ -50,7 +52,8 @@ const styles = StyleSheet.create({
         paddingRight: wp(2),
         paddingVertical: wp(2),
         color: '#FFF',
-        marginVertical: wp(3)
+        marginVertical: wp(3),
+        fontFamily: fontUse,
     }),
 });
 

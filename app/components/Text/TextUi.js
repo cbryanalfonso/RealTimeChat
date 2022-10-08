@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+import { fontUse } from '../../utils/styles';
 
 
 
@@ -8,7 +9,7 @@ const TextUi = ({styleTxt, addStyle, txt}) => {
   return (
     <>
         <Text
-            style={[getTextStyle(styleTxt), addStyle ? addStyle : null]}
+            style={[styles.fontTxt,getTextStyle(styleTxt), addStyle ? addStyle : null]}
         >
             {txt}
         </Text>
@@ -58,5 +59,11 @@ const getTextStyle = (styled) =>{
             break;
     }
 }
+
+const styles = StyleSheet.create({
+    fontTxt:{
+        fontFamily: fontUse
+    }
+});
 
 export default TextUi

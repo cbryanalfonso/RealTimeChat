@@ -1,6 +1,7 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
+import { fontUse } from '../../utils/styles'
 
 const ButtonUI = ({styled, addStyle, onPress, txt, addTxtStyled}) => {
   return (
@@ -9,7 +10,7 @@ const ButtonUI = ({styled, addStyle, onPress, txt, addTxtStyled}) => {
     style={[getButtonStyle(styled), addStyle ? addStyle : null]}
    >
        <Text
-        style={[getTxtStyle(styled), addTxtStyled ? addTxtStyled : null]}
+        style={[styles.containerTxt ,getTxtStyle(styled), addTxtStyled ? addTxtStyled : null]}
        >{txt}</Text>
    </TouchableOpacity>
   )
@@ -70,4 +71,8 @@ const getTxtStyle = (styled) =>{
 
 export default ButtonUI
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    containerTxt:{
+        fontFamily: fontUse,
+    }
+})
