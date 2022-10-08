@@ -25,6 +25,7 @@ const InputText = (props) => {
                         keyboardType={props.keyboardType}
                         maxLength={props.maxLength ? props.maxLength : null}
                         autoCorrect={props.autoCorrect ? true : false}
+                        editable={props.editable ? false : props.editable }
                     />
         </View>
     )
