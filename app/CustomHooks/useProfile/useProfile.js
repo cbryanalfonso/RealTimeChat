@@ -34,13 +34,13 @@ const user = auth().currentUser
         //     credential
         //   )
         //   console.log(result.user);
-       const ress =  await user.reauthenticateWithCredential(
-            auth.EmailAuthProvider.credential(
-                auth().currentUser.email,
-                '123456',
-            ),
-          );
-          console.log(ress.user);
+    //    const ress =  await user.reauthenticateWithCredential(
+    //         auth.EmailAuthProvider.credential(
+    //             auth().currentUser.email,
+    //             '123456',
+    //         ),
+    //       );
+    //       console.log(ress.user);
         // auth().currentUser.delete()
         // .then((res)=>{
         //     console.log(res);
@@ -52,7 +52,14 @@ const user = auth().currentUser
 
         
     //     auth().currentUser.reauthenticateWithCredential()
-        auth().currentUser.delete(ress.user)
+        auth().currentUser.delete(auth().currentUser)
+        .then((res)=>{
+            logout()
+            console.log(res);
+        })
+        .catch((err)=>{
+            console.log(err);
+        })
     //   .then(() => console.log("User deleted"))
     //   .catch((error) => console.log(error));
       }
