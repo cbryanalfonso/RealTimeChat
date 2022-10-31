@@ -8,13 +8,54 @@ import { firebase as storage } from '@react-native-firebase/storage';
 const useProfile = () => {
     const [informationUser, setInformationUser] = useState([]);
     const [loading, setLoading] = useState(true)
-    const user = auth().currentUser.uid;
-    const [picProfile, setPicProfile] = useState(auth().currentUser.photoURL)
+    const user = auth()?.currentUser?.uid;
+    const [picProfile, setPicProfile] = useState(auth()?.currentUser?.photoURL)
 
     useEffect(() => {
         const result = consumeInformation()
         return result;
-    }, [])
+    }, []);
+
+    const deleteSignedUser = async () => {
+        // const pass = 123456
+        // const credential = auth.EmailAuthProvider.credential(
+        //     auth().currentUser.email,
+        //     pass
+        //   )
+        // const credential = auth.EmailAuthProvider.credential(
+        //     auth().currentUser.email,
+        //     '123456',
+        //   )
+        //   console.log(credential);
+
+const user = auth().currentUser
+        //   const result = await auth().currentUser.reauthenticateWithCredential(
+        //     auth().currentUser,
+        //     credential
+        //   )
+        //   console.log(result.user);
+       const ress =  await user.reauthenticateWithCredential(
+            auth.EmailAuthProvider.credential(
+                auth().currentUser.email,
+                '123456',
+            ),
+          );
+          console.log(ress.user);
+        // auth().currentUser.delete()
+        // .then((res)=>{
+        //     console.log(res);
+        // })
+        // .catch((err)=>{
+        //     console.log(err);
+        // })
+
+
+        
+    //     auth().currentUser.reauthenticateWithCredential()
+        auth().currentUser.delete(ress.user)
+    //   .then(() => console.log("User deleted"))
+    //   .catch((error) => console.log(error));
+      }
 
 
     const selectPhotoTapped = async () => {
@@ -65,7 +106,7 @@ const useProfile = () => {
             };
             updatePic(url)
             await auth().currentUser.updateProfile(update)
-            setPicProfile(auth().currentUser.photoURL)
+            setPicProfile(auth()?.currentUser?.photoURL)
         } catch (e) {
             console.error(e);
         }
@@ -108,7 +149,12 @@ const useProfile = () => {
                 setInformationUser(snapshot.val());
                 // console.log('User data: ', snapshot.val());
             });
+    }
 
+    const logout = () => {
+        auth()
+            .signOut()
+            .then(() => console.log('User signed out!'));
     }
 
     return {
@@ -119,6 +165,8 @@ const useProfile = () => {
         picProfile,
         updateInformation,
         startLoading,
+        logout,
+        deleteSignedUser
     }
 }
 
